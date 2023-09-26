@@ -2,3 +2,6 @@
 built_containers/
 ngc_containers/
 *.sif
+
+# Vim
+*.swp
