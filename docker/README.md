@@ -6,11 +6,11 @@ converted to singularity containers.
 # Useful Commands
 Build a docker image
 ```
-docker build -f Dockerfile -t <name>
+docker build -f my.Dockerfile -t <tag_name(optional)>
 ```
 Build singularity container
 ```
-singularity build <name>.sif docker-daemon://t5x_perf_debug
+singularity build <name>.sif docker://<username>/<container_name>
 ```
 
 Remove none images

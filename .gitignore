@@ -1,6 +1,5 @@
-# Singularity
-built_containers/
-ngc_containers/
+# Singularity/docker
+cache/
 *.sif
 
 # Vim
